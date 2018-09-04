@@ -1,0 +1,7 @@
+site_name: '{{ cookiecutter.project_name }}'
+repo_name: '{{ cookiecutter.github_username }}/{{ cookiecutter.github_repository_name }}'
+repo_url: 'https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.github_repository_name }}'
+theme:
+  name: 'material'
+
+dev_addr: '127.0.0.1:8008'
