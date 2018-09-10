@@ -1,7 +1,26 @@
 site_name: '{{ cookiecutter.project_name }}'
 repo_name: '{{ cookiecutter.github_username }}/{{ cookiecutter.github_repository_name }}'
 repo_url: 'https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.github_repository_name }}'
-theme:
-  name: 'material'
 
 dev_addr: '127.0.0.1:8008'
+
+# Copyright
+copyright: 'Copyright &copy; 2018 {{ cookiecutter.full_name }}'
+
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/{{ cookiecutter.github_username }}'
+
+# Theme configuration
+theme:
+  name: 'material'
+  logo:
+    icon: 'code'
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+
+# Extensions
+markdown_extensions:
+  - codehilite
